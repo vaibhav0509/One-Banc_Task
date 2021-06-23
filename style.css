@@ -14,9 +14,9 @@
     font-size: 30px;
   }
   .userName {
-    padding-left: 12px;
+    padding-left: 13px;
     margin: 5px;
-    padding-top: 10px;
+    padding-top: 9px;
     width: 35px;
     height: 35px;
     background: rgb(9 175 70 / 40%);
@@ -37,7 +37,7 @@
     position: relative;
     left: 90px;
     bottom: 74px;
-    font-size: 13px;
+    font-size: 15px;
   }
 
 

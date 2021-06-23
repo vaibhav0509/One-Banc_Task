@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+  }
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .arrow {
+    margin: 5px;
+    font-size: 30px;
+  }
+  .userName {
+    padding-left: 12px;
+    margin: 5px;
+    padding-top: 10px;
+    width: 35px;
+    height: 35px;
+    background: rgb(9 175 70 / 40%);
+    border-radius: 70px;
+    position: relative;
+    left: 40px;
+    bottom: 35px;
+  }
+
+
+  .container {
+    border-bottom: 2px solid black;
+    height: 45px;
+    margin-bottom: 40px;
+  }
+  
+  .john {
+    position: relative;
+    left: 90px;
+    bottom: 74px;
+    font-size: 13px;
+  }
+
+
+/* ---------------------------------- */
+  .date_lapping {
+    background-color: #fff;
+    
+
+  
+  }
+  .line_wrap {
+    display: flex;
+    justify-content: center;
+    border-top-style: dotted;
+  }
+  
+  
+  .date_of_transaction {
+    max-width: 100px;
+    max-height: fit-content;
+    width: 30%;
+    border-radius: 4px;
+    margin: 1.5%;
+    max-width: 200px;
+    text-align: center;
+    margin-top: -1.6%;
+  }
+/* --------------------------- */
+
+
+
+  .card {
+    max-width: 300px;
+    max-height: fit-content;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 1.5%;
+  }
+  .alignment-left {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .alignment-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .ammount {
+    font-size: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  
+  .transaction-id {
+    font-size: 12px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+  }
+  
+  button {
+    border: 1px solid black;
+    background-color: white;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    padding: 2px 15px;
+    border-radius: 4px;
+    transition: 0.2s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+  }
+  button:hover {
+    background: #ccc;
+    color: white;
+  }
+  
+  .date_time_align_left {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: auto;
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+  .date_time_align_right {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: auto;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+  .message {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    font-size: 14px;
+    padding-right: 18px;
+  }
+  .received {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    font-size: 14px;
+    top: -20px;
+    padding-right: 10px;
+  }
+  /* ------------------------------------------------------- */
+
+  .main_box{
+    border: 1px solid black;
+    margin: auto;
+    width: 50%;
+  }
+
+#checkmark:before
+{content:'\2714';
+  display:inline-block;
+  color:green;
+  padding:0 0 0 0;
+  }
+  
+#wait_s:before
+{content:'\223E';
+    display:inline-block;
+    color:darkgrey;
+    padding:0 0 0 0;
+}
+#curr{
+    content:'\20B9';
+    display:inline-block;
+    color:darkgrey;
+    padding:0 0 0 0;
+}
